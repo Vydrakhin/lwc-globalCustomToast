@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <masterLabel>CustomShowToast</masterLabel>
+	
+    <isExposed>true</isExposed>
+	
+    <description>This Lightning Message Channel is used to trigger custom Toasts on LWCs.</description>
+	
+    <lightningMessageFields>
+        <fieldName>type</fieldName>
+        <description>Type of the toast (success, error, warning)</description>
+    </lightningMessageFields>
+	
+    <lightningMessageFields>
+        <fieldName>message</fieldName>
+        <description>This is the main message</description>
+    </lightningMessageFields>
+
+    <lightningMessageFields>
+        <fieldName>isDismissable</fieldName>
+        <description>Set this to true if you want the toast to disappear iver time</description>
+    </lightningMessageFields>
+
+    <lightningMessageFields>
+        <fieldName>body</fieldName>
+        <description>This is the detailed message of the toast.</description>
+    </lightningMessageFields>
+	
+</LightningMessageChannel>
