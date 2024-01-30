@@ -1,0 +1,14 @@
+<template>
+    <c-global-custom-toast auto-close-time="4000"></c-global-custom-toast>
+    <div class="slds-grid slds-gutters">
+        <div class="slds-p-horizontal_small">
+            <lightning-button variant="destructive" label="Error" onclick={triggerCustomShowToast}></lightning-button>
+        </div>
+        <div class="slds-p-horizontal_small">
+            <lightning-button variant="neutral" label="Warning" onclick={triggerCustomShowToast}></lightning-button>
+        </div>
+        <div class="slds-p-horizontal_small">
+            <lightning-button variant="success" label="Success" onclick={triggerCustomShowToast}></lightning-button>
+        </div>
+    </div>
+</template>
