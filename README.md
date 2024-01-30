@@ -19,7 +19,7 @@ The original idea of the creator was to be able to use Toast Notification everyw
 
 ## Setup
 
-- Copy all components and paste them into your project.
+- Copy the lwc, messageChannels and staticresources folders and paste them into your project.
 - Call the globalCustomToast component in your parent component
 - In every child component where you want to call the custom toast, import and initialize the MessageContext variable.
 - Feel free to use the demo component as an example
@@ -28,3 +28,21 @@ The original idea of the creator was to be able to use Toast Notification everyw
 
 - Set toast disappearance time: If the user hovers the mouse over the toast, the toast becomes static and a manual close option appears. It is also possible to keep the component visible until closed.
 - Adaptive display: If the call contains details, the toast will appear with an accordion section containing the details.
+
+## Examples : 
+
+**Error containing details closed:**
+
+![Alt text](./examples/image.png)
+
+**Error containing details opened:**
+
+![Alt text](./examples/image-1.png)
+
+**Warning without details without timer:**
+
+![Alt text](./examples/image-2.png)
+
+**Success with timer not hovered yet:**
+
+![Alt text](./examples/image-5.png)
