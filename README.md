@@ -17,4 +17,8 @@ The original idea of the creator was to be able to use Toast Notification everyw
 - The fontAwesome library
 
 ## Setup
+
 - Copy all components and paste them into your project.
+- Call the globalCustomToast component in your parent component
+- In every child component where you want to call the custom toast, import and initialize the MessageContext variable.
+- Feel free to use the demo component as an example
