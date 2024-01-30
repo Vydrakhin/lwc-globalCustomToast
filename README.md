@@ -4,10 +4,11 @@ This project was based on this work : https://cafeforce.com/custom-toast-notific
 
 The original idea of the creator was to be able to use Toast Notification everywhere.
 
-## This project extends this idea on two sides : 
+## This project extends this idea on three sides : 
 
 - Be able to setup the toast component at the root of your LWC and to be able to call it from everywhere, no matter how many level deep.
 - Be able to mimic the expandable Salesforce error toast.
+- Be able to manage the appearance and disappearance of the Toast
 
 ## This project contains :
 
@@ -22,3 +23,8 @@ The original idea of the creator was to be able to use Toast Notification everyw
 - Call the globalCustomToast component in your parent component
 - In every child component where you want to call the custom toast, import and initialize the MessageContext variable.
 - Feel free to use the demo component as an example
+
+## Features
+
+- Set toast disappearance time: If the user hovers the mouse over the toast, the toast becomes static and a manual close option appears. It is also possible to keep the component visible until closed.
+- Adaptive display: If the call contains details, the toast will appear with an accordion section containing the details.
